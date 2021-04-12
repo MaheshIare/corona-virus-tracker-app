@@ -49,7 +49,7 @@ public class DataScheduler {
 	@Autowired
 	private HttpClient httpClient;
 
-	private static final String CRON_EXPRESSION = "0 0 0/1 1/1 * *";
+	private static final String CRON_EXPRESSION = "0 0 0 * * ?";
 
 	@Cacheable(value = "confirms")
 	@EventListener(value = { ApplicationReadyEvent.class })
