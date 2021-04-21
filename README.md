@@ -21,6 +21,9 @@ GET - /deaths - Stats generation API for death cases
 
 ```
 
+## More details
+This application has a Quartz Cron scheduler, which runs every day at 12:00 AM, to pull latest stats from the global data services.
+
 ## Questions
 If you have project related questions please create a ticket with your question here [Create Issue](https://github.com/MaheshIare/corona-virus-tracker/issues)
 
